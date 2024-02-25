@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  background-color: rgb(255, 102, 0);
+  border: 1px solid red;
+  width: 700px;
+  min-height: 450px;
+
+
 }
 
 .App-logo {
@@ -35,4 +41,31 @@
   to {
     transform: rotate(360deg);
   }
+}
+.selected_image{
+
+padding: 70px;
+
+}
+
+.selected{
+min-width: 70%;
+height: 300px;
+border-radius: 40px;
+}
+
+.images{
+  display: flex;
+  flex-wrap: wrap;
+
+ 
+}
+
+.image{
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  margin: 10px;
+   
+
 }
